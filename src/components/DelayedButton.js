@@ -2,7 +2,12 @@
 import React, {Component} from 'react'
 export default class DelayedButton extends Component {
   constructor(funct, delaynumber){
-    onDelayedClick: funct, 
+    onDelayedClick: funct,
     delay: delaynumber
+  }
+  render (){
+    return (
+      <button></button>
+    )
   }
 }
