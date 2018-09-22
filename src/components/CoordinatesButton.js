@@ -1,8 +1,8 @@
 // Code CoordinatesButton Component Here
 import React, {Component} from 'react'
 
-export default class CoordinatesButton {
-constructor(prop){
+export default class CoordinatesButton extends Component {
+  constructor(prop){
   onReceiveCoordinates: prop
 }
 render(){
@@ -11,3 +11,4 @@ render(){
   )
 }
 }
+
