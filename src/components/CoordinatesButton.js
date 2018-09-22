@@ -5,4 +5,9 @@ export default class CoordinatesButton {
 constructor(prop){
   onReceiveCoordinates: prop
 }
+render(){
+  return (
+    <button onClick = {this.onReceiveCoordinates}
+  )
+}
 }
