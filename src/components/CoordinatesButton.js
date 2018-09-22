@@ -7,7 +7,7 @@ constructor(prop){
 }
 render(){
   return (
-    <button onClick = {this.onReceiveCoordinates}
+    <button onClick = {this.onReceiveCoordinates}>Hello</button>
   )
 }
 }
